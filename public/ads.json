@@ -1,0 +1,253 @@
+{
+  "siteName": "Ad Wars",
+  "contactEmail": "advertise@example.com",
+  "currency": "GBP",
+  "analyticsEndpoint": null,
+  "slots": [
+    {
+      "id": "ZENITH",
+      "name": "The Zenith — above the Sun",
+      "tier": "landmark",
+      "pricePerMonth": 5000,
+      "anchor": "space",
+      "position": [0, 230, 0],
+      "width": 170,
+      "booking": null
+    },
+    {
+      "id": "SUN-01",
+      "name": "Solar Corona North",
+      "tier": "landmark",
+      "pricePerMonth": 3500,
+      "anchor": "sun",
+      "orbitRadius": 150,
+      "orbitSpeed": 0.02,
+      "phase": 0,
+      "height": 35,
+      "width": 80,
+      "booking": null
+    },
+    {
+      "id": "SUN-02",
+      "name": "Solar Corona South",
+      "tier": "landmark",
+      "pricePerMonth": 3500,
+      "anchor": "sun",
+      "orbitRadius": 150,
+      "orbitSpeed": 0.02,
+      "phase": 180,
+      "height": -35,
+      "width": 80,
+      "booking": {
+        "advertiser": "Starlight Motors",
+        "url": "https://example.com/?ad=starlight-motors",
+        "creative": {
+          "type": "animated",
+          "template": "marquee",
+          "headline": "STARLIGHT MOTORS",
+          "tagline": "0 to lightspeed in 3.2 seconds",
+          "cta": "Book a test flight today",
+          "colors": ["#04122b", "#ffffff", "#2b7bff"]
+        }
+      }
+    },
+    {
+      "id": "EARTH-01",
+      "name": "Earth Orbit Prime",
+      "tier": "premium",
+      "pricePerMonth": 2000,
+      "anchor": "earth",
+      "orbitRadius": 26,
+      "orbitSpeed": 0.05,
+      "phase": 0,
+      "height": 6,
+      "width": 26,
+      "booking": {
+        "advertiser": "Nebula Cola",
+        "url": "https://example.com/?ad=nebula-cola",
+        "creative": {
+          "type": "animated",
+          "template": "neon",
+          "headline": "NEBULA COLA",
+          "tagline": "Now with 40% more stardust",
+          "cta": "Taste the cosmos",
+          "colors": ["#12001f", "#ffffff", "#ff3df2"]
+        }
+      }
+    },
+    {
+      "id": "EARTH-02",
+      "name": "Earth Orbit Dark Side",
+      "tier": "premium",
+      "pricePerMonth": 1800,
+      "anchor": "earth",
+      "orbitRadius": 26,
+      "orbitSpeed": 0.05,
+      "phase": 180,
+      "height": -4,
+      "width": 26,
+      "booking": null
+    },
+    {
+      "id": "MOON-01",
+      "name": "Lunar Gateway",
+      "tier": "standard",
+      "pricePerMonth": 900,
+      "anchor": "moon",
+      "orbitRadius": 6,
+      "orbitSpeed": 0.08,
+      "phase": 90,
+      "height": 3,
+      "width": 10,
+      "booking": null
+    },
+    {
+      "id": "MERC-01",
+      "name": "Mercury Sunrise",
+      "tier": "standard",
+      "pricePerMonth": 700,
+      "anchor": "mercury",
+      "orbitRadius": 16,
+      "orbitSpeed": 0.06,
+      "height": 4,
+      "width": 18,
+      "booking": null
+    },
+    {
+      "id": "VENUS-01",
+      "name": "Venus Cloudtop",
+      "tier": "standard",
+      "pricePerMonth": 800,
+      "anchor": "venus",
+      "orbitRadius": 20,
+      "orbitSpeed": 0.05,
+      "phase": 45,
+      "height": 5,
+      "width": 22,
+      "booking": null
+    },
+    {
+      "id": "MARS-01",
+      "name": "Red Planet Overlook",
+      "tier": "premium",
+      "pricePerMonth": 1400,
+      "anchor": "mars",
+      "orbitRadius": 20,
+      "orbitSpeed": 0.05,
+      "phase": 30,
+      "height": 5,
+      "width": 22,
+      "booking": {
+        "advertiser": "Red Planet Realty",
+        "url": "https://example.com/?ad=red-planet-realty",
+        "creative": {
+          "type": "animated",
+          "template": "pulse",
+          "headline": "Own a crater.",
+          "tagline": "Ocean-free views. Zero neighbours.",
+          "cta": "View plots",
+          "colors": ["#1c0703", "#ffe9dc", "#ff5a2b"]
+        }
+      }
+    },
+    {
+      "id": "BELT-01",
+      "name": "Asteroid Belt Gateway",
+      "tier": "premium",
+      "pricePerMonth": 1600,
+      "anchor": "sun",
+      "orbitRadius": 285,
+      "orbitSpeed": 0.004,
+      "phase": 60,
+      "height": 22,
+      "width": 50,
+      "booking": null
+    },
+    {
+      "id": "JUP-01",
+      "name": "Jupiter Great Red Spot",
+      "tier": "landmark",
+      "pricePerMonth": 3000,
+      "anchor": "jupiter",
+      "orbitRadius": 58,
+      "orbitSpeed": 0.03,
+      "phase": 0,
+      "height": 10,
+      "width": 46,
+      "booking": {
+        "advertiser": "Orbit Coffee",
+        "url": "https://example.com/?ad=orbit-coffee",
+        "creative": {
+          "type": "animated",
+          "template": "pulse",
+          "headline": "Orbit Coffee",
+          "tagline": "Zero-gravity roast. Infinite refills.",
+          "cta": "Order now",
+          "colors": ["#1a0f06", "#fff4e0", "#ffb13d"]
+        }
+      }
+    },
+    {
+      "id": "JUP-02",
+      "name": "Jupiter Far Side",
+      "tier": "premium",
+      "pricePerMonth": 2200,
+      "anchor": "jupiter",
+      "orbitRadius": 58,
+      "orbitSpeed": 0.03,
+      "phase": 180,
+      "height": -8,
+      "width": 46,
+      "booking": null
+    },
+    {
+      "id": "SAT-01",
+      "name": "Saturn Ring Crossing",
+      "tier": "landmark",
+      "pricePerMonth": 3000,
+      "anchor": "saturn",
+      "orbitRadius": 62,
+      "orbitSpeed": 0.025,
+      "phase": 90,
+      "height": 22,
+      "width": 46,
+      "booking": {
+        "advertiser": "Quasar VPN",
+        "url": "https://example.com/?ad=quasar-vpn",
+        "creative": {
+          "type": "animated",
+          "template": "neon",
+          "headline": "QUASAR VPN",
+          "tagline": "Encrypted at the speed of light",
+          "cta": "Go dark",
+          "colors": ["#020d12", "#e6fffb", "#3dffd8"]
+        }
+      }
+    },
+    {
+      "id": "URANUS-01",
+      "name": "Uranus Sideways",
+      "tier": "standard",
+      "pricePerMonth": 900,
+      "anchor": "uranus",
+      "orbitRadius": 34,
+      "orbitSpeed": 0.04,
+      "height": 6,
+      "width": 30,
+      "booking": null
+    },
+    {
+      "id": "NEPTUNE-01",
+      "name": "Neptune Outer Rim",
+      "tier": "standard",
+      "pricePerMonth": 900,
+      "anchor": "neptune",
+      "orbitRadius": 34,
+      "orbitSpeed": 0.04,
+      "phase": 120,
+      "height": 6,
+      "width": 30,
+      "booking": null
+    }
+  ]
+}

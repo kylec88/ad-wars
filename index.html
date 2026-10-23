@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Fly through a 3D solar system lined with animated billboards. Every board is ad space for sale." />
+    <title>Ad Wars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="loading">Assembling the universe…</div>
+
+    <div id="labels"></div>
+    <div id="crosshair"><span></span></div>
+    <div id="target"></div>
+    <div id="flash"></div>
+
+    <header id="hud">
+      <div class="brand" data-site-name>Ad Wars</div>
+      <div id="speed">0 km/s</div>
+      <div id="location"></div>
+    </header>
+
+    <a id="advertise-cta" href="advertise.html" target="_blank">Advertise here ↗</a>
+
+    <div id="help">
+      <div><kbd>Mouse</kbd> steer</div>
+      <div><kbd>W A S D</kbd> thrust</div>
+      <div><kbd>Space</kbd>/<kbd>C</kbd> up / down</div>
+      <div><kbd>Q</kbd>/<kbd>E</kbd> roll</div>
+      <div><kbd>Shift</kbd> boost · <kbd>X</kbd> brake</div>
+      <div><kbd>Click</kbd> an ad to visit</div>
+      <div><kbd>Esc</kbd> free mouse · <kbd>H</kbd> hide help</div>
+    </div>
+
+    <nav id="nav"></nav>
+    <button id="boost">BOOST</button>
+
+    <div id="unlocked-hint">Click space to take the controls</div>
+
+    <section id="intro">
+      <div class="card">
+        <h1 data-site-name>Ad Wars</h1>
+        <p class="lede">Fly a ship through the solar system. Every glowing billboard out there is real advertising space.</p>
+        <div class="controls desktop-only">
+          <div><kbd>Mouse</kbd> steer</div>
+          <div><kbd>W A S D</kbd> thrust</div>
+          <div><kbd>Shift</kbd> boost</div>
+          <div><kbd>0–8</kbd> warp to a planet</div>
+          <div><kbd>Tab</kbd> warp to the next ad</div>
+          <div><kbd>Click</kbd> an ad to visit it</div>
+        </div>
+        <div class="controls touch-only">
+          <div><kbd>Left thumb</kbd> drag to fly</div>
+          <div><kbd>Right thumb</kbd> drag to steer</div>
+          <div><kbd>Tap</kbd> an ad to visit it</div>
+        </div>
+        <button id="launch">Launch</button>
+        <a class="small" href="advertise.html" target="_blank">Want your brand up there? See the rate card ↗</a>
+      </div>
+    </section>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
